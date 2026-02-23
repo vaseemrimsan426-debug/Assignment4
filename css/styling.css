@@ -1,0 +1,189 @@
+
+body{
+
+    background: #1fd3f2;
+background: radial-gradient(circle, rgba(31, 211, 242, 1) 0%, rgba(14, 154, 235, 1) 69%, rgba(105, 122, 255, 1) 100%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos&display=swap');
+
+h1{
+    font-family: "Betania Patmos", cursive;
+  font-weight: 900;
+  font-style: large;
+}
+
+header{
+    display: flex;
+    border-radius: 35px;
+    border: 5px solid rgb(247, 246, 246);
+    background: #3740b2;
+}
+
+h1{
+    margin: 30px 0px 30px 100px;
+    padding: 0px 400px 0px 0px;
+    font-size: 50px;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 55px 0px 0px 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.parent{
+    color: rgb(3, 252, 3);
+}
+
+.child{
+    color: rgb(248, 5, 5);
+}
+
+ul a:hover{
+    color: aliceblue;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.subintro {
+    align-content: space-around;
+    text-align: justify;
+    margin: 0px 0px 0px 50px;
+    font-size: large;
+}
+ 
+.image{
+    border-radius: 500px;
+    max-width: 170px;
+    max-height: 170px;
+    margin: 0px 0px 0px 150px;
+    border: solid rgb(0, 0, 0);
+}
+
+.about{
+    font-size: larger;
+    text-align: center;
+}
+.skill{
+    text-align: center;
+}
+
+.aboutme{
+    margin: 30px 50px;
+}
+
+.list{
+    margin: 5px 50px;
+    list-style: none;
+    border: solid #070808;
+    display: grid;
+    font-weight: bold;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer{
+    text-align: center;
+}
+
+.images{
+    max-height: 150px;
+    max-width: 150px;
+}
+
+@media all and (max-width: 768px) {
+    h1{
+        margin: 15px 0px 15px 50px;
+        padding: 0px 50px 0px 0px;
+        font-size: 25px;
+        }   
+}
+
+@media all and (max-width: 768px) {
+    nav ul{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 25px 0px 0px 100px;
+    text-decoration: none;
+    list-style: none;
+    font-size: small;
+    }
+}
+
+@media all and (max-width: 768px) {
+    h2{
+    text-align: center;
+    font-size: large;
+    }
+}
+
+@media all and (max-width: 768px) {
+.subintro {
+    align-content: space-around;
+    text-align: justify;
+    margin: 0px 0px 0px 50px;
+    font-size: small;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .image{
+        border-radius: 250px;
+        max-width: 85px;
+        max-height: 85px;
+        margin: 0px 0px 0px 75px;
+        border: solid rgb(7, 3, 3);
+}
+}
+
+@media all and (max-width: 768px) {
+    .about{
+        font-size: small;
+        text-align: center;
+}
+}
+
+@media all and (max-width: 768px) {
+    .aboutme{
+        margin: 15px 50px;
+        font-size: small;
+}
+}
+
+@media all and (max-width: 768px) {
+    .skill{
+        font-size: small;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .list{
+        font-size: small;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+}
+@media all and (max-width: 768px) {
+    footer{
+        font-size: small;
+    }
+}
